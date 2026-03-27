@@ -5,6 +5,8 @@ body {
 .main {
   margin-left: 0 !important;
   margin-right: auto !important;
+  max-width: none !important;
+  width: auto !important;
 }
 
 @media (min-width: 50rem) {
@@ -19,7 +21,7 @@ body {
 }
 
 .main-content {
-  max-width: 1200px !important;
+  max-width: 1068px !important;
 }
 
 .main-content-wrap {
