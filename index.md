@@ -6,7 +6,7 @@ nav_order: 1
 
 <style>
   .nostr-page {
-    max-width: 920px;
+    max-width: 1068px;
     line-height: 1.7;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #000;
