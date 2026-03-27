@@ -1,14 +1,15 @@
-title: MoonDecimator
+title: YOURNAME
 description: Personal site and Nostr identity page
 theme: just-the-docs
 
-url: https://moondecimator.github.io
+url: https://YOURNAME.github.io
 
 nav_sort: case_insensitive
+search_enabled: false
 
 aux_links:
   GitHub:
-    - https://github.com/moondecimator
+    - https://github.com/YOURNAME
 
 include:
   - .well-known
