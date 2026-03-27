@@ -186,6 +186,15 @@ nav_order: 1
 
   .nostr-page .public-key-block h2 {
     margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.08rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #000;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
   }
 
   .nostr-page .public-key-value {
