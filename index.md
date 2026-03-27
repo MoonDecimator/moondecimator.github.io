@@ -116,6 +116,8 @@ nav_order: 1
   }
 
   .nostr-page .technical-side-image {
+    flex: 0 0 auto;
+    flex-shrink: 0;
     width: min(30vw, 224px);
     max-width: 224px;
     min-width: 148px;
