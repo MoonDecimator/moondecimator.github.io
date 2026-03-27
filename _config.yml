@@ -7,9 +7,5 @@ url: https://moondecimator.github.io
 nav_sort: case_insensitive
 search_enabled: false
 
-aux_links:
-  GitHub:
-    - https://github.com/moondecimator
-
 include:
   - .well-known
