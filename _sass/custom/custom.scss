@@ -3,14 +3,12 @@ body {
   font-weight: 400;
 }
 
-.main-content-wrap {
-  justify-content: flex-start;
-}
-
-.main-content {
-  margin-left: 0;
-  margin-right: auto;
-  max-width: 920px;
+.site-title,
+.nav-list .nav-list-link,
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-weight: 500;
 }
 
 .main-content p,
@@ -18,8 +16,20 @@ body {
   font-weight: 400;
 }
 
-.site-title,
-.nav-list .nav-list-link,
-h1, h2, h3 {
-  font-weight: 500;
+.main-content-wrap {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  max-width: 960px !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+@media (min-width: 50rem) {
+  .main-content-wrap {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    max-width: 960px !important;
+    padding-left: 3rem !important;
+    padding-right: 2rem !important;
+  }
 }
