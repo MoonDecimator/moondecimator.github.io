@@ -116,7 +116,8 @@ nav_order: 1
   }
 
   .nostr-page .technical-side-image {
-    width: 224px;
+    width: min(30vw, 224px);
+    max-width: 224px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
