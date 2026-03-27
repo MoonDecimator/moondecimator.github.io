@@ -72,8 +72,8 @@ nav_order: 1
 
   .nostr-page .profile-image {
     float: right;
-    width: min(28vw, 208px);
-    max-width: 208px;
+    width: min(26vw, 192px);
+    max-width: 192px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -86,8 +86,8 @@ nav_order: 1
 
   .nostr-page .inline-image {
     float: left;
-    width: min(28vw, 208px);
-    max-width: 208px;
+    width: min(26vw, 192px);
+    max-width: 192px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -138,8 +138,8 @@ nav_order: 1
   .nostr-page .technical-side-image {
     flex: 0 0 auto;
     flex-shrink: 0;
-    width: min(28vw, 208px);
-    max-width: 208px;
+    width: min(26vw, 192px);
+    max-width: 192px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -184,11 +184,10 @@ nav_order: 1
     margin-top: 32px;
   }
 
-  .nostr-page .public-key-block h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
+  .nostr-page .public-key-label {
+    margin: 0 0 10px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.08rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0;
@@ -288,7 +287,7 @@ nav_order: 1
     </div>
 
     <div class="public-key-block">
-      <h2>Nostr Public Key</h2>
+      <p class="public-key-label">Nostr Public Key</p>
       <p class="public-key-value"><code>npub16czfqy03j5x40pqegphnrul7n5xdq6afrphs2eh9ay96ya4qqwkqkluwf9</code></p>
     </div>
   </article>
