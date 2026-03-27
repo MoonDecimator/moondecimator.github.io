@@ -3,8 +3,14 @@ body {
   font-weight: 400;
 }
 
+.main-content-wrap {
+  justify-content: flex-start;
+}
+
 .main-content {
-  font-weight: 400;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 920px;
 }
 
 .main-content p,
@@ -13,10 +19,7 @@ body {
 }
 
 .site-title,
-.nav-list .nav-list-link {
-  font-weight: 500;
-}
-
+.nav-list .nav-list-link,
 h1, h2, h3 {
   font-weight: 500;
 }
