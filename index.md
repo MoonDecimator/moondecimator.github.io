@@ -30,8 +30,8 @@ nav_order: 1
     font-size: clamp(2.2rem, 4vw, 3.2rem);
     line-height: 1.12;
     letter-spacing: -0.01em;
-    font-family: "Linux Libertine", "Libertinus Serif", "Times New Roman", Times, serif;
-    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+    font-weight: 700;
     color: #000;
     font-variant-numeric: lining-nums;
     font-feature-settings: "lnum" 1, "tnum" 1;
@@ -43,8 +43,8 @@ nav_order: 1
     font-size: 1.34rem;
     line-height: 1.28;
     letter-spacing: 0;
-    font-family: "Linux Libertine", "Libertinus Serif", "Times New Roman", Times, serif;
-    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+    font-weight: 700;
     color: #000;
     font-variant-numeric: lining-nums;
     font-feature-settings: "lnum" 1, "tnum" 1;
@@ -180,6 +180,19 @@ nav_order: 1
     }
   }
 
+  .nostr-page .public-key-block {
+    margin-top: 32px;
+  }
+
+  .nostr-page .public-key-block h2 {
+    margin-top: 0;
+  }
+
+  .nostr-page .public-key-value {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
   @media (max-width: 700px) {
     .nostr-page .profile-image,
     .nostr-page .inline-image {
@@ -263,6 +276,11 @@ nav_order: 1
         <strong>Technical note:</strong> if you are here specifically to verify my Nostr identity, the key resource on this site is <code>/.well-known/nostr.json</code>.
       </div>
       <img src="/img03.png" alt="Additional illustration" class="technical-side-image">
+    </div>
+
+    <div class="public-key-block">
+      <h2>Nostr Public Key</h2>
+      <p class="public-key-value"><code>npub16czfqy03j5x40pqegphnrul7n5xdq6afrphs2eh9ay96ya4qqwkqkluwf9</code></p>
     </div>
   </article>
 </div>
