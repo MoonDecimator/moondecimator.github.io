@@ -29,10 +29,12 @@ nav_order: 1
     margin: 0 0 14px;
     font-size: clamp(2.2rem, 4vw, 3.2rem);
     line-height: 1.12;
-    letter-spacing: -0.02em;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-weight: 700;
+    letter-spacing: -0.01em;
+    font-family: "Linux Libertine", "Libertinus Serif", "Times New Roman", Times, serif;
+    font-weight: 600;
     color: #000;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
   }
 
   .nostr-page h2 {
@@ -41,21 +43,27 @@ nav_order: 1
     font-size: 1.34rem;
     line-height: 1.28;
     letter-spacing: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-weight: 700;
+    font-family: "Linux Libertine", "Libertinus Serif", "Times New Roman", Times, serif;
+    font-weight: 600;
     color: #000;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
   }
 
   .nostr-page p {
     margin: 0 0 16px;
     font-size: 1.08rem;
     color: #000;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
   }
 
   .nostr-page .lead {
     max-width: 64ch;
     font-size: 1.16rem;
     color: #000;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
   }
 
   .nostr-page .hero {
@@ -119,6 +127,8 @@ nav_order: 1
     background: #f8f9fa;
     color: #000;
     font-size: 1.02rem;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum" 1, "tnum" 1;
   }
 
   .nostr-page .note strong {
