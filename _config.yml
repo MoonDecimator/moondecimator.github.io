@@ -1,2 +1,14 @@
+title: MoonDecimator
+description: Personal site and Nostr identity page
+theme: just-the-docs
+
+url: https://moondecimator.github.io
+
+nav_sort: case_insensitive
+
+aux_links:
+  GitHub:
+    - https://github.com/moondecimator
+
 include:
   - .well-known
