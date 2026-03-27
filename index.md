@@ -72,8 +72,8 @@ nav_order: 1
 
   .nostr-page .profile-image {
     float: right;
-    width: min(30vw, 224px);
-    max-width: 224px;
+    width: min(28vw, 208px);
+    max-width: 208px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -86,8 +86,8 @@ nav_order: 1
 
   .nostr-page .inline-image {
     float: left;
-    width: min(30vw, 224px);
-    max-width: 224px;
+    width: min(28vw, 208px);
+    max-width: 208px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -138,8 +138,8 @@ nav_order: 1
   .nostr-page .technical-side-image {
     flex: 0 0 auto;
     flex-shrink: 0;
-    width: min(30vw, 224px);
-    max-width: 224px;
+    width: min(28vw, 208px);
+    max-width: 208px;
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
