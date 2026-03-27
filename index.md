@@ -7,7 +7,9 @@ nav_order: 1
 <style>
   .nostr-page {
     max-width: 920px;
-    line-height: 1.78;
+    line-height: 1.7;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #000;
   }
 
   .nostr-page .eyebrow {
@@ -15,37 +17,45 @@ nav_order: 1
     margin-bottom: 14px;
     padding: 6px 10px;
     border-radius: 999px;
-    background: #eef4ff;
-    color: #2563eb;
+    background: #f8f9fa;
+    color: #202122;
     font-size: 0.88rem;
-    font-weight: 650;
+    font-weight: 600;
     letter-spacing: 0.01em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
   }
 
   .nostr-page h1 {
     margin: 0 0 14px;
     font-size: clamp(2.2rem, 4vw, 3.2rem);
     line-height: 1.12;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    color: #000;
   }
 
   .nostr-page h2 {
     margin-top: 36px;
     margin-bottom: 12px;
-    font-size: 1.26rem;
+    font-size: 1.34rem;
     line-height: 1.28;
-    letter-spacing: -0.01em;
+    letter-spacing: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    color: #000;
   }
 
   .nostr-page p {
     margin: 0 0 16px;
     font-size: 1.08rem;
+    color: #000;
   }
 
   .nostr-page .lead {
     max-width: 64ch;
     font-size: 1.16rem;
-    color: #59657d;
+    color: #000;
   }
 
   .nostr-page .hero {
@@ -104,15 +114,15 @@ nav_order: 1
     flex: 1 1 auto;
     margin-top: 0;
     padding: 18px 18px;
-    border: 1px solid #d8e0eb;
-    border-radius: 16px;
-    background: #eef4ff;
-    color: #59657d;
+    border: 1px solid #a2a9b1;
+    border-radius: 0;
+    background: #f8f9fa;
+    color: #000;
     font-size: 1.02rem;
   }
 
   .nostr-page .note strong {
-    color: #162033;
+    color: #000;
   }
 
   .nostr-page .technical-side-image {
@@ -130,29 +140,33 @@ nav_order: 1
   }
 
   @media (prefers-color-scheme: dark) {
+    .nostr-page {
+      color: #000;
+    }
+
     .nostr-page .eyebrow {
-      background: #0f1c34;
-      color: #82b1ff;
+      background: #f8f9fa;
+      color: #202122;
     }
 
     .nostr-page .lead,
-    .nostr-page .note {
-      color: #a1b0c8;
+    .nostr-page p,
+    .nostr-page h1,
+    .nostr-page h2,
+    .nostr-page .note,
+    .nostr-page .note strong {
+      color: #000;
     }
 
     .nostr-page .profile-image,
     .nostr-page .inline-image,
     .nostr-page .note,
     .nostr-page .technical-side-image {
-      border-color: #24324a;
+      border-color: #a2a9b1;
     }
 
     .nostr-page .note {
-      background: #0f1c34;
-    }
-
-    .nostr-page .note strong {
-      color: #e6edf7;
+      background: #f8f9fa;
     }
   }
 
