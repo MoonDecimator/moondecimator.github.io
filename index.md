@@ -39,12 +39,12 @@ nav_order: 1
 
   .nostr-page p {
     margin: 0 0 16px;
-    font-size: 1.03rem;
+    font-size: 1.08rem;
   }
 
   .nostr-page .lead {
     max-width: 64ch;
-    font-size: 1.12rem;
+    font-size: 1.16rem;
     color: #59657d;
   }
 
@@ -59,7 +59,7 @@ nav_order: 1
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 24px;
+    border-radius: 0;
     margin: 4px 0 20px 28px;
     border: 1px solid #d8e0eb;
     box-shadow: 0 16px 34px rgba(15, 23, 42, 0.14);
@@ -73,7 +73,7 @@ nav_order: 1
     min-width: 148px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 24px;
+    border-radius: 0;
     margin: 0 52px 24px 0;
     border: 1px solid #d8e0eb;
     box-shadow: 0 16px 34px rgba(15, 23, 42, 0.14);
@@ -93,18 +93,37 @@ nav_order: 1
     border-radius: 6px;
   }
 
-  .nostr-page .note {
+  .nostr-page .technical-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
     margin-top: 30px;
+  }
+
+  .nostr-page .note {
+    flex: 1 1 auto;
+    margin-top: 0;
     padding: 18px 18px;
     border: 1px solid #d8e0eb;
     border-radius: 16px;
     background: #eef4ff;
     color: #59657d;
-    font-size: 0.98rem;
+    font-size: 1.02rem;
   }
 
   .nostr-page .note strong {
     color: #162033;
+  }
+
+  .nostr-page .technical-side-image {
+    width: 224px;
+    min-width: 148px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0;
+    border: 1px solid #d8e0eb;
+    box-shadow: 0 16px 34px rgba(15, 23, 42, 0.14);
+    background: rgba(127, 127, 127, 0.12);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -120,7 +139,8 @@ nav_order: 1
 
     .nostr-page .profile-image,
     .nostr-page .inline-image,
-    .nostr-page .note {
+    .nostr-page .note,
+    .nostr-page .technical-side-image {
       border-color: #24324a;
     }
 
@@ -140,6 +160,16 @@ nav_order: 1
       display: block;
       width: min(64vw, 220px);
       margin: 0 auto 20px;
+    }
+
+    .nostr-page .technical-row {
+      display: block;
+    }
+
+    .nostr-page .technical-side-image {
+      display: block;
+      width: min(64vw, 220px);
+      margin: 18px auto 0;
     }
   }
 </style>
@@ -201,8 +231,11 @@ nav_order: 1
       As a personal developer site, I prefer simple tools that remain easy to understand and maintain. GitHub Pages and a small static page are enough for this purpose, and I appreciate that the result stays close to ordinary web standards. That simplicity feels appropriate for Nostr as well: an open protocol, a public key, and a small public record that anyone can verify.
     </p>
 
-    <div class="note">
-      <strong>Technical note:</strong> if you are here specifically to verify my Nostr identity, the key resource on this site is <code>/.well-known/nostr.json</code>.
+    <div class="technical-row">
+      <div class="note">
+        <strong>Technical note:</strong> if you are here specifically to verify my Nostr identity, the key resource on this site is <code>/.well-known/nostr.json</code>.
+      </div>
+      <img src="/img03.png" alt="Additional illustration" class="technical-side-image">
     </div>
   </article>
 </div>
